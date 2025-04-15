@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="text.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="../images/logo.png" alt="University Logo">
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="contact-info">
+                <a href="mailto:info@university.edu" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@university.edu</span>
+                </a>
+                <a href="tel:+1234567890" class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+1 (234) 567-890</span>
+                </a>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>123 College Ave, Campus City</span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#campus">Campus</a></li>
+                <li><a href="#department">Departments</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home/Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Our Prestigious University</h1>
+                <p>A center of excellence for learning, innovation, and discovery. Join our community of scholars and
+                    shape your future.</p>
+                <a href="#admissions" class="cta-button">Explore Programs</a>
+            </div>
+        </section>
+
+        <!-- Campus Section -->
+        <section id="campus" class="section">
+            <h2 class="section-title">Our Campus</h2>
+            <p class="section-subtitle">Explore our state-of-the-art facilities and beautiful grounds</p>
+
+            <div class="campus-gallery">
+                <div class="campus-card">
+                    <img src="../images/department.PNG" alt="Main Campus" class="campus-img">
+                    <div class="campus-info">
+                        <h3>Main Quadrangle</h3>
+                        <p>The historic heart of our university</p>
+                    </div>
+                </div>
+
+                <div class="campus-card">
+                    <img src="../images/labbbbb.PNG " alt="Library" class="campus-img">
+                    <div class="campus-info">
+                        <h3>University Library</h3>
+                        <p>Over 2 million volumes and digital resources</p>
+                    </div>
+                </div>
+
+                <div class="campus-card">
+                    <img src="https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt="Science Center" class="campus-img">
+                    <div class="campus-info">
+                        <h3>Science Center</h3>
+                        <p>Cutting-edge research facilities</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="virtual-tour">
+                <div class="virtual-tour-content">
+                    <h2>Take a Virtual Tour</h2>
+                    <p>Can't visit in person? Explore our beautiful campus from anywhere in the world with our 360°
+                        virtual tour experience.</p>
+                    <a href="#" class="cta-button">Start Virtual Tour</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Department Section -->
+        <section id="department" class="section department-section">
+            <h2 class="section-title">Academic Departments</h2>
+            <p class="section-subtitle">Discover our diverse range of academic programs and disciplines</p>
+
+            <div class="departments-container">
+                <div class="department-card">
+                    <img src="../images/computer lab.PNG" alt="Engineering" class="department-img">
+                    <div class="department-content">
+                        <h3>College of Engineering</h3>
+                        <p>Innovative programs in mechanical, electrical, civil, and computer engineering with
+                            state-of-the-art labs.</p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+
+                <div class="department-card">
+                    <img src="../images/science lab.PNG" alt="Business" class="department-img">
+                    <div class="department-content">
+                        <h3>Business School</h3>
+                        <p>Developing future business leaders through rigorous programs and real-world experience.</p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+
+                <div class="department-card">
+                    <img src="../images/computer lab.PNG" alt="Arts" class="department-img">
+                    <div class="department-content">
+                        <h3>Faculty of Arts</h3>
+                        <p>Exploring human creativity and culture through literature, history, and visual arts.</p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="section research-section">
+            <h2 class="section-title">Research Excellence</h2>
+            <p class="section-subtitle">Groundbreaking discoveries and innovative research that changes the world</p>
+
+            <div class="research-highlights">
+                <div class="research-card">
+                    <img src="../images/collo.PNG" alt="AI Research" class="research-img">
+                    <div class="research-content">
+                        <span class="research-category">Artificial Intelligence</span>
+                        <h3>Advancing Human-Centered AI</h3>
+                        <p>Our researchers are developing ethical AI systems that enhance human capabilities while
+                            addressing societal challenges.</p>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <img src="../images/collo.PNG" alt="Climate Research" class="research-img">
+                    <div class="research-content">
+                        <span class="research-category">Climate Science</span>
+                        <h3>Climate Change Solutions</h3>
+                        <p>Pioneering research into sustainable technologies and climate adaptation strategies for a
+                            changing world.</p>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <img src="../images/coollges.PNG" alt="Medical Research" class="research-img">
+                    <div class="research-content">
+                        <span class="research-category">Medical Research</span>
+                        <h3>Breakthroughs in Cancer Treatment</h3>
+                        <p>Our medical researchers are developing targeted therapies that show promising results in
+                            clinical trials.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <h2 class="section-title">About Our University</h2>
+            <p class="section-subtitle">A legacy of excellence in education and innovation</p>
+
+            <div class="about-container">
+                <div class="about-content">
+                    <h3>Our History and Mission</h3>
+                    <p>Founded in 1890, our university has grown from a small college to a world-renowned institution
+                        with a commitment to academic excellence, research innovation, and community engagement.</p>
+                    <p>Our mission is to educate, to discover, and to serve. We prepare students to lead meaningful
+                        lives as engaged citizens and visionary leaders, equipped to address the complex challenges of
+                        our global society.</p>
+                    <p>With a diverse community of students and faculty from over 100 countries, we foster an
+                        environment of intellectual curiosity, creativity, and collaboration.</p>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">25,000+</div>
+                            <div class="stat-label">Students</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2,000+</div>
+                            <div class="stat-label">Faculty Members</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">150+</div>
+                            <div class="stat-label">Countries Represented</div>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
+                    alt="University History" class="about-img">
+            </div>
+        </section>
+
+        <!-- Login/Register Section -->
+        <section id="login" class="section login-section">
+            <h2 class="section-title">Login and Register</h2>
+            <p class="section-subtitle">Access your account or join our university community</p>
+
+            <div class="bubbles">
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:23;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:25;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:26;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:28;"></span>
+            </div>
+
+            <div class="login-container">
+                <div class="container" id="container">
+                    <div class="toggle-btn" id="toggleBtn">
+                        <i class='bx bx-log-in-circle'></i>
+                    </div>
+
+                    <div class="form-container login-form">
+                        <form id="loginForm">
+                            <h1>Login</h1>
+                            <div class="input-box">
+                                <input type="text" id="loginUsername" placeholder="Username" required>
+                                <i class='bx bxs-user'></i>
+                            </div>
+                            <div class="input-box">
+                                <input type="password" id="loginPassword" placeholder="Password" required>
+                                <i class='bx bxs-lock-alt'></i>
+                            </div>
+                            <button type="submit" class="btn">Login</button>
+                            <div class="form-footer">
+                                Don't have an account? <a href="#" id="showRegister">Register</a>
+                            </div>
+                            <div class="social-text">
+                                <span>or login with</span>
+                            </div>
+                            <div class="social-icons">
+                                <a href="#"><i class='bx bxl-google'></i></a>
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
+                                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="form-container register-form">
+                        <form id="registerForm">
+                            <h1>Register</h1>
+                            <div class="input-box">
+                                <input type="text" id="regUsername" placeholder="Username" required>
+                                <i class='bx bxs-user'></i>
+                            </div>
+                            <div class="input-box">
+                                <input type="email" id="regEmail" placeholder="Email" required>
+                                <i class='bx bxs-envelope'></i>
+                            </div>
+                            <div class="input-box">
+                                <input type="password" id="regPassword" placeholder="Password" required>
+                                <i class='bx bxs-lock-alt'></i>
+                            </div>
+                            <div class="input-box">
+                                <input type="password" id="regConfirmPassword" placeholder="Confirm Password" required>
+                                <i class='bx bxs-lock-alt'></i>
+                            </div>
+                            <button type="submit" class="btn">Register</button>
+                            <div class="form-footer">
+                                Already have an account? <a href="#" id="showLogin">Login</a>
+                            </div>
+                            <div class="social-text">
+                                <span>or register with</span>
+                            </div>
+                            <div class="social-icons">
+                                <a href="#"><i class='bx bxl-google'></i></a>
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
+                                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <span class="footer-title">GET TO KNOW US</span>
+            <span>About Us</span>
+            <span>Careers</span>
+            <span>Press Release</span>
+            <span>University Research</span>
+        </div>
+        <div>
+            <span class="footer-title">CONNECT WITH US</span>
+            <span><i class="bi bi-facebook"></i> Facebook</span>
+            <span><i class="bi bi-twitter-x"></i> Twitter</span>
+            <span><i class="bi bi-instagram"></i> Instagram</span>
+        </div>
+        <div>
+            <span class="footer-title">ACADEMIC PROGRAMS</span>
+            <span>Undergraduate Programs</span>
+            <span>Graduate Programs</span>
+            <span>Professional Development</span>
+            <span>Online Learning</span>
+            <span>Study Abroad</span>
+            <span>Summer Programs</span>
+        </div>
+        <div>
+            <span class="footer-title">STUDENT RESOURCES</span>
+            <span>Admissions</span>
+            <span>Financial Aid</span>
+            <span>Student Portal</span>
+            <span>Campus Life</span>
+            <span>Academic Calendar</span>
+            <span>Help Center</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Toggle between login and register forms
+        const container = document.getElementById('container');
+        const toggleBtn = document.getElementById('toggleBtn');
+        const showRegister = document.getElementById('showRegister');
+        const showLogin = document.getElementById('showLogin');
+
+        toggleBtn.addEventListener('click', () => {
+            container.classList.toggle('active');
+            updateToggleIcon();
+        });
+
+        showRegister.addEventListener('click', (e) => {
+            e.preventDefault();
+            container.classList.add('active');
+            updateToggleIcon();
+        });
+
+        showLogin.addEventListener('click', (e) => {
+            e.preventDefault();
+            container.classList.remove('active');
+            updateToggleIcon();
+        });
+
+        function updateToggleIcon() {
+            const icon = toggleBtn.querySelector('i');
+            if (container.classList.contains('active')) {
+                icon.classList.remove('bx-log-in-circle');
+                icon.classList.add('bx-user-plus');
+            } else {
+                icon.classList.remove('bx-user-plus');
+                icon.classList.add('bx-log-in-circle');
+            }
+        }
+
+        // Form validation and submission
+        const loginForm = document.getElementById('loginForm');
+        const registerForm = document.getElementById('registerForm');
+
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const username = document.getElementById('loginUsername').value;
+            const password = document.getElementById('loginPassword').value;
+
+            // Add your login logic here
+            console.log('Login attempt with:', username, password);
+
+            // Animation for successful login
+            if (username && password) {
+                loginForm.querySelector('.btn').textContent = 'Success!';
+                loginForm.querySelector('.btn').style.background = '#4BB543';
+                setTimeout(() => {
+                    loginForm.querySelector('.btn').textContent = 'Login';
+                    loginForm.querySelector('.btn').style.background = '#fff';
+                }, 1500);
+            }
+        });
+
+        registerForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const username = document.getElementById('regUsername').value;
+            const email = document.getElementById('regEmail').value;
+            const password = document.getElementById('regPassword').value;
+            const confirmPassword = document.getElementById('regConfirmPassword').value;
+
+            // Simple validation
+            if (password !== confirmPassword) {
+                alert("Passwords don't match!");
+                return;
+            }
+
+            // Add your registration logic here
+            console.log('Registration attempt with:', username, email, password);
+
+            // Animation for successful registration
+            if (username && email && password) {
+                registerForm.querySelector('.btn').textContent = 'Registered!';
+                registerForm.querySelector('.btn').style.background = '#4BB543';
+                setTimeout(() => {
+                    registerForm.querySelector('.btn').textContent = 'Register';
+                    registerForm.querySelector('.btn').style.background = '#fff';
+                    container.classList.remove('active');
+                    updateToggleIcon();
+                }, 1500);
+            }
+        });
+    </script>
+</body>
+
+</html>
